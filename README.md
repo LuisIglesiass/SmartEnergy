@@ -1,10 +1,76 @@
-# SmartEnergy
+# SmartEnergy 🌿💡
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+---
+
+## Project Overview
+
+**SmartEnergy** is a Next.js application designed to help users understand their daily carbon footprint. 👣 It features various categories of everyday activities. Users can click on each action, and the system calculates a corresponding CO2 consumption value. After navigating through all categories, a final calculation is presented along with statistics on the total CO2 consumed. 📊
+
+## Deployment
+
+The application is currently deployed and accessible at:
+[smart-energy-chi.vercel.app](https://smart-energy-chi.vercel.app/) 🚀
+
+---
+
+## Technologies Used
+
+* **Next.js**: A powerful React framework for building fast and scalable web applications. ⚛️
+* **JavaScript**: The core programming language used for the application's logic and interactivity. 💻
+* **CSS**: Utilized for styling the user interface and ensuring a clean, intuitive design. 🎨
+
+---
+
+## Features
+
+* **Categorized Activities**: Explore different categories of daily activities that contribute to CO2 emissions. 🏠🚗✈️
+* **Interactive CO2 Calculation**: Click on individual actions to instantly see the calculated CO2 consumption. ⚡️
+* **Comprehensive Final Report**: Receive a total CO2 consumption value and detailed statistics after completing all categories. 📈
+* **User-Friendly Interface**: An intuitive design to make understanding your carbon footprint easy and accessible. 👍
+
+---
+
+## Future Enhancements (Under Development)
+
+We're continuously working to improve SmartEnergy. Our current focus areas include:
+
+* **Enhanced Accuracy**: Making CO2 consumption calculations more precise. 🎯
+* **Greater User Flexibility**: Offering more options and customization for selecting activities. ⚙️
+* **Improved Statistics & Visualizations**: Providing better insights and more engaging graphs based on the results. 📊✨
+
+---
 
 ## Getting Started
 
-First, run the development server:
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+* Node.js (LTS version recommended)
+* npm, Yarn, pnpm, or Bun
+
+### Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/LuisIglesiass/SmartEnergy.git](https://github.com/LuisIglesiass/SmartEnergy.git)
+    cd SmartEnergy
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    yarn install
+    # or
+    pnpm install
+    # or
+    bun install
+    ```
+
+### Running the Development Server
+
+To run the development server:
 
 ```bash
 npm run dev
@@ -15,25 +81,8 @@ pnpm dev
 # or
 bun dev
 ```
+Open http://localhost:3000 with your browser to see the result. 🌐
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Project Purpose
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# SmartEnergy
+The main goal of the SmartEnergy project is to raise awareness about daily CO2 consumption by providing users with an interactive tool to estimate their carbon footprint from everyday activities. We aim to empower users with information that can help them make more environmentally conscious decisions. 🌍💚
